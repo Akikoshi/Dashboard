@@ -1,6 +1,6 @@
 package com.semjasa.dashboard.models;
 
-public class Tenant {
+public class Tenant extends BaseEntity {
 
     private String name;
     private String description;
