@@ -4,7 +4,7 @@
 
     <groupId>com.semjasa</groupId>
     <artifactId>dashboard</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>dashboard-data</module>
         <module>dashboard-web</module>
@@ -36,13 +36,16 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.3.2</version>
+                <version>2.5.2</version>
                 <configuration>
                     <goals>install</goals>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
-
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/Akikoshi/Dashboard.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 </project>
