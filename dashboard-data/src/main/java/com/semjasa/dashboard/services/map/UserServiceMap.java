@@ -28,7 +28,7 @@ public class UserServiceMap extends AbstractMapService<User, Long> implements Cr
     }
 
     @Override
-    public User findById(Long id) {
+    public User  findById(Long id) {
         return super.findById(id);
     }
 }
